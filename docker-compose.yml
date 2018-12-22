@@ -1,0 +1,9 @@
+version: '2.2'
+
+services:
+  creator_q:
+    image: chatster/api-creator-q
+    build: .
+    container_name: creator_q
+    ports:
+      - 8100:8100
